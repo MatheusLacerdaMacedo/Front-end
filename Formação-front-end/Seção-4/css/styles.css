@@ -7,3 +7,89 @@ h3 {
     color: Blue;
     font-size: 60px;
 }
+
+/* classes */
+
+.paragraph {
+    background-color: #000;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+
+/* Ids */
+#exclusive-title {
+    background-color: red;
+    color: black;
+    padding: 6px;
+    font-size: 30px
+}
+
+/* Ordem das regras */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titles {
+    border-bottom: 5px solid blue;
+}
+
+#title1 {
+    border-bottom: 10px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color: red;
+}
+
+/* Cores hex */
+.hex {
+    color: #55a398;
+}
+
+.hex2 {
+    color: #777;
+}
+
+/* Cores rgb */
+.rgb {
+    color: rgb(252, 186, 3)
+}
+
+.rgb-a {
+    color: rgba(252, 186, 3, .8)
+}
+
+/* Cor com hsl */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+
+/* Background color */
+.back {
+    background-color: #55a398;
+    color: black;
+    font-size: 40px
+}
+
+/* Background opacity */
+.back2 {
+    background-color: green;
+    opacity: .2;
+    font-size: 40px
+}
+
+.back3 {
+    background-color: red;
+    color: black;
+    font-size: 40px;
+    opacity: .8
+}
+
+.back4 {
+    background-color: rgba(255,89,72,0.1);
+    color: black;
+    font-size: 40px;
+}
