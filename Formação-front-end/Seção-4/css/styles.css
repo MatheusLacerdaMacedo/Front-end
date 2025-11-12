@@ -98,6 +98,7 @@ h2 {
 .back5 {
     background-image: url(../images/imagem.jpg);
     font-size: 80px;
+    color: white;
 }
 
 /* Centralizando BG image */
@@ -106,6 +107,7 @@ h2 {
     height: 400px;
     width: 400px;
     background-image: url(../images/imagem.jpg);
+    color: white;
 }
 
 .center {
@@ -128,7 +130,7 @@ h2 {
 /* Padding */
 .without-padding,
 .with-padding {
-    background-color: #111;
+    background-color: #1100ff;
     color: white;
 }
 
@@ -154,4 +156,20 @@ h2 {
 .shorthand-padding2 {
     background-color: #444;
     padding: 10px 20px;
+}
+
+/* padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #FFF;
+    width: 400px;
+    padding: 50px;
+}
+
+.with-border-box {
+    background-color: #444;
+    color: #FFF;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
 }
