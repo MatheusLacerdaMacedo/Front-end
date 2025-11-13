@@ -335,26 +335,60 @@ h2 {
 .bolder {
     font-weight: 900;
 }
+
 /* Font size */
-.small{
+.small {
     font-size: 6px;
 }
-.big{
+
+.big {
     font-size: 88px;
 }
+
 /* Display */
-.inline-box{
+.inline-box {
     width: 50px;
     height: 50px;
     background-color: #4f8;
     margin: 10px;
     display: inline-block;
 }
-.block{
+
+.block {
     background-color: #333;
     display: block;
     margin: 10px;
 }
-.invisible{
+
+.invisible {
     display: none;
+}
+
+/* position*/
+.static {
+    position: static;
+    background-color: #391;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.relative {
+    position: relative;
+    background-color: #224;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #385;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
 }
