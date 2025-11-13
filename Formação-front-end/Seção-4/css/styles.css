@@ -264,3 +264,30 @@ h2 {
 .remove-under{
     text-decoration: none;
 }
+/* Text transform */
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+/* letter spacing */
+.spacing{
+    letter-spacing: 5px;
+}
+/* Fontes */
+.serif{
+    font-family:Georgia;
+}
+.sans-serif{
+    font-family: helvetica;
+}
+.monospace{
+    font-family: "courier new";
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
