@@ -232,8 +232,9 @@ h2 {
     background-color: #222;
     margin: 5px 10px 15px 20px;
 }
+
 /* Box model */
-.box-model{
+.box-model {
     margin: 20px;
     padding: 10px 25px;
     border: 3px solid red;
@@ -242,52 +243,118 @@ h2 {
     height: 100px;
     box-sizing: border-box;
 }
+
 /* text align */
-.text-align{
+.text-align {
     background-color: red;
     color: white;
     text-align: right;
 }
-.container-center{
+
+.container-center {
     text-align: center;
     width: 300px;
-    border:1px solid red;
+    border: 1px solid red;
 }
-.underline{
+
+.underline {
     color: #000;
     text-decoration: underline;
 }
-.line-trough{
-    color:#000;
+
+.line-trough {
+    color: #000;
     text-decoration: line-through;
 }
-.remove-under{
+
+.remove-under {
     text-decoration: none;
 }
+
 /* Text transform */
-.upper{
+.upper {
     text-transform: uppercase;
 }
-.lower{
+
+.lower {
     text-transform: lowercase;
 }
+
 /* letter spacing */
-.spacing{
+.spacing {
     letter-spacing: 5px;
 }
+
 /* Fontes */
-.serif{
-    font-family:Georgia;
+.serif {
+    font-family: Georgia;
 }
-.sans-serif{
+
+.sans-serif {
     font-family: helvetica;
 }
-.monospace{
+
+.monospace {
     font-family: "courier new";
 }
-.cursive{
+
+.cursive {
     font-family: cursive;
 }
-.fantasy{
+
+.fantasy {
     font-family: fantasy;
+}
+
+/* Font style */
+.italic {
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.oblique {
+    font-family: Georgia;
+    font-style: oblique;
+}
+
+/* Font weight */
+.thin,
+.bold,
+.bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+/* Font size */
+.small{
+    font-size: 6px;
+}
+.big{
+    font-size: 88px;
+}
+/* Display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+.invisible{
+    display: none;
 }
