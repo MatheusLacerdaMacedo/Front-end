@@ -413,3 +413,51 @@ h2 {
     top: 10px;
     left: 10px;
 }
+
+.fixed {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    position: fixed;
+    background-color: #851;
+    color: white;
+    top: 50px;
+    right: 100px;
+}
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    position: sticky;
+    background-color: #994;
+    color: white;
+    top: 50px;
+    right: 100px;
+}
+/* Z index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+.absolute-3{
+    top:0px;
+    left:0px;
+    z-index: 3;
+}
+.absolute-4{
+    top:10px;
+    left:10px;
+    background-color: #246;
+    z-index: 2;
+}
+.absolute-5{
+    top:40px;
+    left:40px;
+    background-color: #745;
+    z-index: 1;
+}
